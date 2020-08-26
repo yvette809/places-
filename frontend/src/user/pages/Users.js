@@ -3,13 +3,14 @@ import UsersList from '../components/UserList';
 
 const Users = ()=>{
 
-    const UsersD = {
+    const USERS = [{
         name:"yvette",
-        placeCount: 2,
+        places: 2,
         image: "https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-taj-mahal.jpg"
     }
+]
     return(
-       <UsersList items= {usersD}/>
+       <UsersList items= {USERS}/>
     )
     
 }
